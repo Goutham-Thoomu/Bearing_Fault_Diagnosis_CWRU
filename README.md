@@ -36,6 +36,9 @@ Takes vibration signal segments as input
 Learns features automatically from the data 
 Designed for time-series clssification
 
+# Code Structure
+The project currently uses on Python script per model. Each script includes data preprocessing, feature extraction,  model trainig , and evaluation steps.
+
 # Results
 XGBoost MODEL ACCURACY: 0.9690996270644646
 1D CNN Test Accuracy:  0.9978689551353455 
@@ -55,3 +58,8 @@ XGboost
 Tensorflow
 Matplotlib
 Seaborn
+
+# How to Run 
+1. Install the required libraries using "Requirements.txt"
+2. Run "Optimized_1DCNN.py" to train and evaluate the 1D CNN model
+3. Run "Opimized_XGBoost.py" to train and evaluate the XGBoost model
