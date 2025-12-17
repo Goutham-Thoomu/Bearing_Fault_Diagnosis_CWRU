@@ -1,0 +1,8 @@
+0. pandas
+1. numpy
+2. scipy
+3. scikit-learn
+5. xgboost
+6. tensorflow
+7. matplotlib
+8. seaborn
